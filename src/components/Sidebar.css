@@ -1,0 +1,39 @@
+.sidebar {
+  width: 220px;
+  min-height: 100vh;
+  background: white;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+    cursor:pointer;
+    margin-bottom:30px;
+    padding-left:20px;
+}
+
+.logo img{
+    width:120px;
+    transition:0.2s;
+    padding: 10px;
+}
+
+.logo img:hover{
+    transform:scale(1.05);
+}
+.sidebar button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #f4f4f4;
+  cursor: pointer;
+}
+
+.sidebar button:hover {
+  background: #e5e5e5;
+}

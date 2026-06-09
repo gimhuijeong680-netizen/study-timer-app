@@ -1,0 +1,102 @@
+.timer-page{
+    display:flex;
+    min-height:100vh;
+}
+
+.timer-content-page{
+    flex:1;
+    padding:40px;
+}
+
+.timer-main-box{
+    background:white;
+    border-radius:30px;
+
+    min-height:350px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    border:2px solid #d9d9d9;
+}
+
+.timer-number{
+    font-size:110px;
+    margin:0;
+}
+
+.timer-label{
+    margin-top:10px;
+    color:#555;
+}
+
+.timer-buttons{
+    display:flex;
+    gap:20px;
+    margin-top:20px;
+}
+
+.timer-buttons button,
+.setting-buttons button{
+
+    border:none;
+    border-radius:20px;
+
+    background:#a8a8e8;
+    color:white;
+
+    padding:14px 28px;
+
+    font-size:18px;
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:0.2s;
+}
+
+.timer-buttons button:hover,
+.setting-buttons button:hover{
+    background:#8e92e5;
+    transform:translateY(-2px);
+}
+
+.bottom-boxes{
+    display:flex;
+    gap:20px;
+    margin-top:20px;
+}
+
+.setting-box,
+.status-box{
+    flex:1;
+
+    background:white;
+
+    border-radius:30px;
+
+    min-height:250px;
+
+    border:2px solid #d9d9d9;
+
+    padding:25px;
+}
+
+.setting-buttons{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+
+    margin-top:60px;
+}
+
+.status-text{
+    font-size:40px;
+    font-weight:700;
+
+    text-align:center;
+
+    margin-top:80px;
+}

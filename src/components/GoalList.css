@@ -1,0 +1,88 @@
+.goal-input{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.goal-input input{
+    width:220px;
+    height:40px;
+
+    border:2px solid #ddd;
+    border-radius:12px;
+
+    padding:0 12px;
+    font-size:16px;
+}
+
+.add-btn{
+    width:40px;
+    height:40px;
+    cursor:pointer;
+    object-fit:contain;
+}
+
+.goal-input{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.goal-input input{
+    width:280px;
+    height:50px;
+
+    border:3px solid #d8d8d8;
+    border-radius:20px;
+
+    padding:0 20px;
+
+    font-size:20px;
+
+    background:white;
+    color:#555;
+
+    outline:none;
+}
+
+.goal-input input:focus{
+    border-color:#a8a8e8;
+}
+
+.goal-input button{
+    width:50px;
+    height:50px;
+
+    border:none;
+    border-radius:15px;
+
+    background:#9ea2e8;
+
+    color:white;
+    font-size:32px;
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:0.2s;
+}
+
+.goal-input button:hover{
+    transform:scale(1.05);
+    background:#8c90df;
+}
+
+.check-btn{
+    width:17px;
+    height:17px;
+
+    border:3px solid #9ea2e8;
+    border-radius:50%;
+
+    background:white;
+
+    cursor:pointer;
+
+    padding:0;
+    font-size:0;
+}
