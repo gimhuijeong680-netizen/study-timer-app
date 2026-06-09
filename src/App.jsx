@@ -9,7 +9,7 @@ import Routine from "./pages/Routine";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/study-timer-app">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/timer" element={<Timer />} />
